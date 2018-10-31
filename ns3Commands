@@ -1,0 +1,21 @@
+contact prof Abdallah SOBEHY: sobehy@telecom-sudparis.eu
+
+code sharing: https://codeshare.io/5O7oR0
+cd /usr/src/packages/BUILD/ns-allinone-3.28/ns-3.28
+run ns3 with argv: ./waf --run "aggour-tp1 --verbose=true"
+run ns3 :          ./waf --run aggour-tp1
+launch NetAnim:    ../netanim-3.108/NetAnim
+launch wireshark:  wireshark second-0-0.pcap &
+
+DEBUG
+./waf --run nom-de-script --command-template="gdb %s"
+./waf --run nom-de-script --command-template="gdb --args %s --verbose=true"
+
+see:
+/usr/src/packages/BUILD/ns-allinone-3.28/ns-3.28/examples/wireless/wifi-simple-adhoc.cc
+/usr/src/packages/BUILD/ns-allinone-3.28/ns-3.28/examples/wireless/gnu-plot-example.cc
+
+
+mini project: https://www.dropbox.com/s/15iwn2rr653fmex/tp-remo.pdf?dl=0
+ns3 documentation:  https://www.nsnam.org/doxygen/
+
